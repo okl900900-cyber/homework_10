@@ -1,3 +1,15 @@
-th, td {
-    border: 1px black solid;
+@media (min-width: 1440px) {
+    @import url(desktop.css);
+}
+
+@media (max-width: 1440px) and (min-width: 768px) {
+    @import url(tablet_690.css);
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+    @import url(tablet_510.css);
+}
+
+@media (max-width: 320px) {
+    @import url(mobile.css);
 }
