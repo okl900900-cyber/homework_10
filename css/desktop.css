@@ -1,0 +1,29 @@
+@media (min-width: 1440px) {
+    header {
+        background-color: #E1EDE6;
+        height: 100px;
+    }
+    .wrap {
+        padding: 0 165px;
+        height: 100%;
+    }
+
+    .wrap:first-child {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-title span {
+        position: relative;
+        bottom: 10px;
+    }
+
+    .header-nav {
+        margin-right: 100px;
+        flex-grow: 2;
+        display: flex;
+        justify-content: end;
+        gap: 100px;
+    }
+}
