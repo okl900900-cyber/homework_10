@@ -21,6 +21,18 @@
         font-weight: 700;
     }
 
+    .header-nav-and-cart {
+        display: flex;
+    }
+
+    .list-img {
+        display: none;
+    }
+
+    .cross {
+        display: none;
+    }
+
     .header-nav {
         padding: 0;
         margin-right: 100px;

@@ -1,3 +1,45 @@
 @media (max-width: 768px) and (min-width: 576px) {
-    
+    header {
+        background-color: #E1EDE6;
+        height: 123px;
+    }
+
+    .wrap {
+        padding: 0 33px;
+        height: 100%;
+    }
+
+    .logo-title {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px #C3D1C6 solid;
+        padding: 16px 0;
+    }
+
+    .logo-title span {
+        position: relative;
+        bottom: 10px;
+        color: #598D66;
+        font-weight: 700;
+    }
+
+    .header-nav-and-cart {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .list-img {
+        display: none;
+    }
+
+    .cross {
+        display: none;
+    }
+
+    .header-nav {
+        padding: 0;
+        display: flex;
+        gap: 80px;
+    }
 }

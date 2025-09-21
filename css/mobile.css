@@ -1,3 +1,75 @@
 @media (max-width: 576px) and (min-width: 320px) {
-    
+    .wrap {
+        padding: 0 15px;
+        height: 100%;
+    }
+
+    .wrap:first-child {
+        padding: 0;
+        width: 100%;
+    }
+
+    .logo-title {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px #C3D1C6 solid;
+        padding: 16px 0;
+        background-color: white;
+        padding: 15px 15px;
+        height: 68px;
+        box-sizing: border-box;
+    }
+
+    .logo-title span {
+        position: relative;
+        bottom: 10px;
+        color: #598D66;
+        font-weight: 700;
+    }
+
+    .header-nav-and-cart {
+        background-color: #E1EDE6;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 15px 15px;
+        height: 62px;
+        box-sizing: border-box;
+    }
+
+    .cross {
+        display: none;
+    }
+
+    .header-nav-and-cart:hover .list-img {
+        display: none;
+    }
+
+    .header-nav-and-cart:hover .cross {
+        display: inline-block;
+    }
+
+    .header-nav-and-cart:hover .cart {
+        display: none;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header-nav-and-cart:hover .header-nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        background-color: #E1EDE6;
+        top: 130px;
+        box-sizing: border-box;
+        left: 0;
+        padding: 20px 15px;
+        margin: 0;
+        height: 303px;
+        gap: 50px;
+    }
 }
