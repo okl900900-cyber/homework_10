@@ -1,5 +1,11 @@
+@import url(raleway.css);
+@import url(reset.css);
 @import url(desktop.css);
 @import url(tablet_690.css);
 @import url(tablet_510.css);
 @import url(mobile.css);
-@import url(reset.css)
+
+body {
+    font-family: "Raleway";
+    font-weight: 500;
+}

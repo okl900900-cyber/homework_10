@@ -17,11 +17,15 @@
     .logo-title span {
         position: relative;
         bottom: 10px;
+        color: #598D66;
+        font-weight: 700;
     }
 
     .header-nav {
+        padding: 0;
         margin-right: 100px;
-        flex-grow: 2;
+        flex-grow: 1;
+        flex-basis: 10%;
         display: flex;
         justify-content: end;
         gap: 100px;
