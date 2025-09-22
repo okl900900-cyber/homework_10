@@ -14,7 +14,7 @@
         width: 100%;
         text-align: center;
         border-bottom: 1px #C3D1C6 solid;
-        padding: 16px 0;
+        padding: 13px 0;
     }
 
     .logo-title span {
@@ -28,6 +28,7 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
+        box-sizing: border-box;
     }
 
     .list-img {
@@ -129,5 +130,72 @@
         background-color: #D4E8D9;
         padding: 10px 15px;
         border-radius: 20px;
+    }
+
+    .another-country:hover {
+        background-color: #598D66;
+        color: white;
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .products li {
+        height: 514px;
+        width: 240px;
+        padding: 20px;
+        background-color: #E1EDE6;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products li img {
+        width: 100%;
+    }
+
+    .artist {
+        color: #86928B;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .materials {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    .cost {
+        color: #598D66;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .buy-button {
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        border: #598D66 1px solid;
+        color: #598D66;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 8px;
+    }
+
+    .buy-button:hover {
+        background-color: #598D66;
+        color: white;
     }
 }

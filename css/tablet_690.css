@@ -41,7 +41,7 @@
         flex-basis: 10%;
         display: flex;
         justify-content: end;
-        gap: 100px;
+        gap: 80px;
     }
 
     main .wrap {
@@ -131,5 +131,73 @@
         background-color: #D4E8D9;
         padding: 10px 15px;
         border-radius: 20px;
+    }
+
+    .another-country:hover {
+        background-color: #598D66;
+        color: white;
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .products li {
+        height: 730px;
+        width: 330px;
+        padding: 20px;
+        background-color: #E1EDE6;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+
+    .products li img {
+        width: 100%;
+    }
+
+    .artist {
+        color: #86928B;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .materials {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .cost {
+        color: #598D66;
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .buy-button {
+        width: 100%;
+        height: 65px;
+        box-sizing: border-box;
+        border: #598D66 1px solid;
+        color: #598D66;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 18px;
+    }
+
+    .buy-button:hover {
+        background-color: #598D66;
+        color: white;
     }
 }
