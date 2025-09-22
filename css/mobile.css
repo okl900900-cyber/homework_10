@@ -70,11 +70,11 @@
         left: 0;
         padding: 20px 15px;
         margin: 0;
-        height: 303px;
+        height: 280px;
         gap: 50px;
     }
 
-    .wrap:nth-child(2) {
+    main .wrap {
         display: flex;
         flex-direction: column;
     }
@@ -124,5 +124,40 @@
     .introduction-text a:hover {
         background-color: #598D66;
         color: white;
+    }
+
+    .gallery {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .reproductions {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .countries-list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 30px;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .current-country {
+        background-color: #376B44;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 20px;
+    }
+
+    .another-country {
+        background-color: #D4E8D9;
+        padding: 10px 15px;
+        border-radius: 20px;
     }
 }

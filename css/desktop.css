@@ -43,7 +43,7 @@
         gap: 100px;
     }
 
-    .wrap:nth-child(2) {
+    main .wrap {
         display: flex;
         flex-direction: column;
     }
@@ -93,5 +93,42 @@
     .introduction-text a:hover {
         background-color: #598D66;
         color: white;
+    }
+
+    .gallery {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .reproductions {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 44px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .countries-list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .current-country {
+        background-color: #376B44;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 20px;
+    }
+
+    .another-country {
+        background-color: #D4E8D9;
+        padding: 10px 15px;
+        border-radius: 20px;
     }
 }
