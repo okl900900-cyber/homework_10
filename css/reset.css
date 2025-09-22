@@ -10,3 +10,7 @@ a {
 body {
     margin: 0;
 }
+
+h1 {
+    font-weight: 500;
+}

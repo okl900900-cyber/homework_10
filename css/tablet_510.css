@@ -2,6 +2,7 @@
     header {
         background-color: #E1EDE6;
         height: 123px;
+        font-size: 18px;
     }
 
     .wrap {
@@ -41,5 +42,58 @@
         padding: 0;
         display: flex;
         gap: 80px;
+    }
+
+    .wrap:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduction {
+        display: flex;
+        gap: 5%;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .introduction img {
+        width: 35%;
+    }
+
+    .introduction-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+
+    h1 span {
+        color: #598D66;
+    }
+
+    .introduction-text p {
+        color: #86928B;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .introduction-text a {
+        color: #598D66;
+        height: 50px;
+        width: 178px;
+        box-sizing: border-box;
+        border: #598D66 1px solid;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    .introduction-text a:hover {
+        background-color: #598D66;
+        color: white;
     }
 }

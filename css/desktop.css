@@ -2,6 +2,7 @@
     header {
         background-color: #E1EDE6;
         height: 100px;
+        font-size: 20px;
     }
     .wrap {
         padding: 0 165px;
@@ -40,5 +41,57 @@
         display: flex;
         justify-content: end;
         gap: 100px;
+    }
+
+    .wrap:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduction {
+        display: flex;
+        gap: 5%;
+        align-items: center;
+    }
+
+    .introduction img {
+        width: 45%;
+    }
+
+    .introduction-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 60px;
+    }
+
+    h1 span {
+        color: #598D66;
+    }
+
+    .introduction-text p {
+        color: #86928B;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+    .introduction-text a {
+        color: #598D66;
+        height: 65px;
+        width: 225px;
+        box-sizing: border-box;
+        border: #598D66 1px solid;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .introduction-text a:hover {
+        background-color: #598D66;
+        color: white;
     }
 }

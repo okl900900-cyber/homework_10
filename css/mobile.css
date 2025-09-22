@@ -4,9 +4,10 @@
         height: 100%;
     }
 
-    .wrap:first-child {
+    header .wrap {
         padding: 0;
         width: 100%;
+        font-size: 18px;
     }
 
     .logo-title {
@@ -71,5 +72,57 @@
         margin: 0;
         height: 303px;
         gap: 50px;
+    }
+
+    .wrap:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .introduction {
+        padding-top: 50px;
+    }
+
+    .introduction img {
+        width: 35%;
+        display: none;
+    }
+
+    .introduction-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    h1 span {
+        color: #598D66;
+    }
+
+    .introduction-text p {
+        color: #86928B;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .introduction-text a {
+        color: #598D66;
+        height: 50px;
+        width: 154px;
+        box-sizing: border-box;
+        border: #598D66 1px solid;
+        text-align: center;
+        padding-top: 12px;
+        font-size: 18px;
+    }
+
+    .introduction-text a:hover {
+        background-color: #598D66;
+        color: white;
     }
 }
