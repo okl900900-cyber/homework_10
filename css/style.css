@@ -1,10 +1,9 @@
-@import url(raleway.css);
+@import url(font_raleway.css);
 @import url(reset.css);
 @import url(desktop.css);
 @import url(tablet_690.css);
 @import url(tablet_510.css);
 @import url(mobile.css);
-
 body {
     font-family: "Raleway";
     font-weight: 500;
@@ -91,20 +90,20 @@ h1 span {
     color: white;
 }
 
-.products {
+.products-list {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
 
-.products li {
+.products-list li {
     display: flex;
     flex-direction: column;
     background-color: #E1EDE6;
 }
 
-.products li img {
+.products-list li img {
     width: 100%;
 }
 
@@ -158,11 +157,11 @@ h1 span {
     background: #FAEB97;
 }
 
-#our-team {
+.wrap.our-team {
     gap: 30px;
 }
 
-.team-portraits {
+.team-portraits-list {
     display: flex;
     justify-content: start;
     gap: 25px;
@@ -170,11 +169,11 @@ h1 span {
     padding: 0;
 }
 
-.team-portraits li {
+.team-portraits-list li {
     width: 80px;
 }
 
-.team-portraits li img {
+.team-portraits-list li img {
     display: block;
     width: 100%;
 }

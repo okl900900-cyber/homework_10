@@ -81,11 +81,11 @@
         gap: 40px;
     }
 
-    .products {
+    .products-list {
         justify-content: space-between;
     }
 
-    .products li {
+    .products-list li {
         height: 730px;
         width: 350px;
         padding: 20px;
@@ -140,18 +140,18 @@
         margin-top: 60px;
     }
 
-    #our-team {
+    .wrap.our-team {
         flex-direction: row;
         align-items: center;
         margin-top: 50px;
         padding-bottom: 20px;
     }
 
-    #our-team > img {
+    .wrap.our-team > img {
         width: 40%;
     }
 
-    #our-team p {
+    .wrap.our-team p {
         font-size: 18px;
     }
 

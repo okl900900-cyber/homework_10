@@ -103,12 +103,12 @@
         font-size: 18px;
     }
 
-    .products {
+    .products-list {
         justify-content: space-around;
         gap: 10px;
     }
 
-    .products li {
+    .products-list li {
         height: 514px;
         width: 290px;
         padding: 20px;
@@ -116,7 +116,7 @@
         box-sizing: border-box;
     }
 
-    .products li img {
+    .products-list li img {
         min-height: 250px;
     }
 
@@ -163,17 +163,17 @@
         margin-top: 40px;
     }
 
-    #our-team {
+    .wrap.our-team {
         align-items: left;
         margin-top: 30px;
         padding-bottom: 20px;
     }
 
-    #our-team > img {
+    .wrap.our-team > img {
         width: 100%;
     }
 
-    #our-team p {
+    .wrap.our-team p {
         font-size: 16px;
     }
 

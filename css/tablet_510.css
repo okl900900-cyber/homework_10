@@ -74,12 +74,12 @@
         font-size: 18px;
     }
 
-    .products {
+    .products-list {
         justify-content: space-around;
         gap: 10px;
     }
 
-    .products li {
+    .products-list li {
         height: 514px;
         width: 240px;
         padding: 20px;
@@ -129,17 +129,17 @@
         margin-top: 40px;
     }
 
-    #our-team {
+    .wrap.our-team {
         align-items: left;
         margin-top: 50px;
         padding-bottom: 20px;
     }
 
-    #our-team > img {
+    .wrap.our-team > img {
         width: 60%;
     }
 
-    #our-team p {
+    .wrap.our-team p {
         font-size: 16px;
     }
 
