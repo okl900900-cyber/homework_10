@@ -7,7 +7,6 @@
 
     .wrap {
         padding: 0 33px;
-        height: 100%;
     }
 
     .logo-title {
@@ -15,13 +14,6 @@
         text-align: center;
         border-bottom: 1px #C3D1C6 solid;
         padding: 13px 0;
-    }
-
-    .logo-title span {
-        position: relative;
-        bottom: 10px;
-        color: #598D66;
-        font-weight: 700;
     }
 
     .header-nav-and-cart {
@@ -35,19 +27,10 @@
         display: none;
     }
 
-    .cross {
-        display: none;
-    }
-
     .header-nav {
         padding: 0;
         display: flex;
         gap: 80px;
-    }
-
-    main .wrap {
-        display: flex;
-        flex-direction: column;
     }
 
     .introduction {
@@ -61,50 +44,24 @@
         width: 35%;
     }
 
-    .introduction-text {
-        display: flex;
-        flex-direction: column;
-    }
-
     h1 {
-        margin: 0;
         font-size: 36px;
     }
 
-    h1 span {
-        color: #598D66;
-    }
-
     .introduction-text p {
-        color: #86928B;
         font-size: 16px;
-        font-weight: 500;
         margin-bottom: 30px;
     }
 
     .introduction-text a {
-        color: #598D66;
         height: 50px;
         width: 178px;
-        box-sizing: border-box;
-        border: #598D66 1px solid;
-        text-align: center;
         padding-top: 10px;
         font-size: 18px;
     }
 
-    .introduction-text a:hover {
-        background-color: #598D66;
-        color: white;
-    }
-
     .gallery {
         margin-top: 20px;
-        width: 100%;
-    }
-
-    .reproductions {
-        width: 100%;
     }
 
     h2 {
@@ -112,37 +69,13 @@
     }
 
     .countries-list {
-        display: flex;
-        align-items: center;
         gap: 40px;
         padding: 0;
         font-size: 18px;
     }
 
-    .current-country {
-        background-color: #376B44;
-        color: white;
-        padding: 10px 15px;
-        border-radius: 20px;
-    }
-
-    .another-country {
-        background-color: #D4E8D9;
-        padding: 10px 15px;
-        border-radius: 20px;
-    }
-
-    .another-country:hover {
-        background-color: #598D66;
-        color: white;
-    }
-
     .products {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
-        margin: 0;
-        padding: 0;
         gap: 10px;
     }
 
@@ -150,18 +83,10 @@
         height: 514px;
         width: 240px;
         padding: 20px;
-        background-color: #E1EDE6;
         margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .products li img {
-        width: 100%;
     }
 
     .artist {
-        color: #86928B;
         font-size: 16px;
         margin-top: 10px;
         margin-bottom: 5px;
@@ -177,67 +102,35 @@
     }
 
     .cost {
-        color: #598D66;
         font-size: 20px;
         margin-top: 20px;
         margin-bottom: 15px;
     }
 
     .buy-button {
-        width: 100%;
         height: 50px;
-        box-sizing: border-box;
-        border: #598D66 1px solid;
-        color: #598D66;
-        text-align: center;
         font-size: 18px;
         padding-top: 8px;
     }
 
-    .buy-button:hover {
-        background-color: #598D66;
-        color: white;
-    }
-
     .new-collection {
-        background: url(img/background.png) no-repeat center / cover;
         padding: 40px 33px;
-        color: white;
-        margin-top: 20px;
     }
 
     .collection-header {
-        display: flex;
         align-items: center;
-        gap: 10px;
     }
     
-    .collection-header img {
-        display: inline-block;
-    }
-
-    .new-collection p {
-        font-size: 18px;
-    }
-
     .collection-button {
-        background-color: #EEDB6D;
-        display: block;
         width: 190px;
         height: 40px;
-        text-align: center;
         padding-top: 14px;
         font-size: 18px;
         margin-top: 40px;
     }
 
-    .collection-button:hover {
-        background: #FAEB97;
-    }
-
     #our-team {
         align-items: left;
-        gap: 30px;
         margin-top: 50px;
         padding-bottom: 20px;
     }
@@ -250,25 +143,7 @@
         font-size: 16px;
     }
 
-    .team-portraits {
-        display: flex;
-        justify-content: start;
-        gap: 25px;
-        height: 80px;
-        padding: 0;
-    }
-
-    .team-portraits li {
-        width: 80px;
-    }
-
-    .team-portraits li img {
-        display: block;
-        width: 100%;
-    }
-
     footer {
-        background-color: #E1EDE6;
         height: 319px;
     }
 }

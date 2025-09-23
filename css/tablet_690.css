@@ -6,7 +6,6 @@
     }
     .wrap {
         padding: 0 39px;
-        height: 100%;
     }
 
     .wrap:first-child {
@@ -15,22 +14,11 @@
         justify-content: space-between;
     }
 
-    .logo-title span {
-        position: relative;
-        bottom: 10px;
-        color: #598D66;
-        font-weight: 700;
-    }
-
     .header-nav-and-cart {
         display: flex;
     }
 
     .list-img {
-        display: none;
-    }
-
-    .cross {
         display: none;
     }
 
@@ -44,11 +32,6 @@
         gap: 80px;
     }
 
-    main .wrap {
-        display: flex;
-        flex-direction: column;
-    }
-
     .introduction {
         display: flex;
         gap: 5%;
@@ -59,50 +42,27 @@
         width: 40%;
     }
 
-    .introduction-text {
-        display: flex;
-        flex-direction: column;
-    }
-
     h1 {
-        margin: 0;
         font-size: 40px;
     }
 
-    h1 span {
-        color: #598D66;
-    }
-
     .introduction-text p {
-        color: #86928B;
         font-size: 18px;
-        font-weight: 500;
         margin-bottom: 40px;
     }
 
     .introduction-text a {
-        color: #598D66;
         height: 60px;
         width: 210px;
-        box-sizing: border-box;
-        border: #598D66 1px solid;
-        text-align: center;
         padding-top: 15px;
         font-size: 20px;
     }
 
-    .introduction-text a:hover {
-        background-color: #598D66;
-        color: white;
-    }
-
     .gallery {
         margin-top: 20px;
-        width: 100%;
     }
 
     .reproductions {
-        width: 100%;
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
@@ -115,55 +75,23 @@
     }
 
     .countries-list {
-        display: flex;
-        align-items: center;
         gap: 40px;
     }
 
-    .current-country {
-        background-color: #376B44;
-        color: white;
-        padding: 10px 15px;
-        border-radius: 20px;
-    }
-
-    .another-country {
-        background-color: #D4E8D9;
-        padding: 10px 15px;
-        border-radius: 20px;
-    }
-
-    .another-country:hover {
-        background-color: #598D66;
-        color: white;
-    }
-
     .products {
-        display: flex;
-        flex-wrap: wrap;
         justify-content: space-around;
         gap: 15px;
-        margin: 0;
-        padding: 0;
     }
 
     .products li {
         height: 730px;
         width: 330px;
         padding: 20px;
-        background-color: #E1EDE6;
         margin-top: 15px;
-        display: flex;
-        flex-direction: column;
         box-sizing: border-box;
     }
 
-    .products li img {
-        width: 100%;
-    }
-
     .artist {
-        color: #86928B;
         font-size: 18px;
         margin-top: 20px;
         margin-bottom: 15px;
@@ -179,67 +107,35 @@
     }
 
     .cost {
-        color: #598D66;
         font-size: 24px;
         margin-top: 40px;
         margin-bottom: 25px;
     }
 
     .buy-button {
-        width: 100%;
         height: 65px;
-        box-sizing: border-box;
-        border: #598D66 1px solid;
-        color: #598D66;
-        text-align: center;
         font-size: 20px;
         padding-top: 18px;
     }
 
-    .buy-button:hover {
-        background-color: #598D66;
-        color: white;
-    }
-
     .new-collection {
-        background: url(img/background.png) no-repeat center / cover;
         padding: 50px 39px;
-        color: white;
-        margin-top: 20px;
     }
 
     .collection-header {
-        display: flex;
         align-items: center;
-        gap: 10px;
-    }
-    
-    .collection-header img {
-        display: inline-block;
-    }
-
-    .new-collection p {
-        font-size: 18px;
     }
 
     .collection-button {
-        background-color: #EEDB6D;
-        display: block;
         width: 210px;
         height: 45px;
-        text-align: center;
         padding-top: 15px;
         font-size: 20px;
         margin-top: 40px;
     }
 
-    .collection-button:hover {
-        background: #FAEB97;
-    }
-
     #our-team {
         align-items: left;
-        gap: 30px;
         margin-top: 50px;
         padding-bottom: 20px;
     }
@@ -252,25 +148,7 @@
         font-size: 18px;
     }
 
-    .team-portraits {
-        display: flex;
-        justify-content: start;
-        gap: 25px;
-        height: 80px;
-        padding: 0;
-    }
-
-    .team-portraits li {
-        width: 80px;
-    }
-
-    .team-portraits li img {
-        display: block;
-        width: 100%;
-    }
-
     footer {
-        background-color: #E1EDE6;
         height: 250px;
     }
 }

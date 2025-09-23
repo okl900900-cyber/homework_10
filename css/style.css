@@ -10,6 +10,175 @@ body {
     font-weight: 500;
 }
 
+.wrap {
+    height: 100%;
+}
+
+.logo-title span {
+    position: relative;
+    bottom: 10px;
+    color: #598D66;
+    font-weight: 700;
+}
+
+.cross {
+    display: none;
+}
+
 main {
     background-color: #F4F6F5;
+}
+
+main .wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction-text {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 span {
+    color: #598D66;
+}
+
+.introduction-text p {
+    color: #86928B;
+    font-weight: 500;
+}
+
+.introduction-text a {
+    color: #598D66;
+    box-sizing: border-box;
+    border: #598D66 1px solid;
+    text-align: center;
+}
+
+.introduction-text a:hover {
+    background-color: #598D66;
+    color: white;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.reproductions {
+    width: 100%;
+}
+
+.countries-list {
+    display: flex;
+    align-items: center;
+}
+
+.current-country {
+    background-color: #376B44;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.another-country {
+    background-color: #D4E8D9;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.another-country:hover {
+    background-color: #598D66;
+    color: white;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.products li {
+    display: flex;
+    flex-direction: column;
+    background-color: #E1EDE6;
+}
+
+.products li img {
+    width: 100%;
+}
+
+.artist {
+    color: #86928B;
+}
+
+.cost {
+    color: #598D66;
+}
+
+.buy-button {
+    width: 100%;
+    box-sizing: border-box;
+    border: #598D66 1px solid;
+    color: #598D66;
+    text-align: center;
+}
+
+.buy-button:hover {
+    background-color: #598D66;
+    color: white;
+}
+
+.new-collection {
+    background: url(img/background.png) no-repeat center / cover;
+    color: white;
+    margin-top: 20px;
+}
+
+.collection-header {
+    display: flex;
+    gap: 10px;
+}
+
+.collection-header img {
+    display: inline-block;
+}
+
+.new-collection p {
+    font-size: 18px;
+}
+
+.collection-button {
+    background-color: #EEDB6D;
+    display: block;
+    text-align: center;
+}
+
+.collection-button:hover {
+    background: #FAEB97;
+}
+
+#our-team {
+    gap: 30px;
+}
+
+.team-portraits {
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+    height: 80px;
+    padding: 0;
+}
+
+.team-portraits li {
+    width: 80px;
+}
+
+.team-portraits li img {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    background-color: #E1EDE6;
 }
