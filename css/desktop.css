@@ -85,7 +85,7 @@
         justify-content: space-between;
     }
 
-    .products-list li {
+    .products-list li article {
         height: 730px;
         width: 350px;
         padding: 20px;

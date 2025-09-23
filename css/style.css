@@ -97,13 +97,13 @@ h1 span {
     padding: 0;
 }
 
-.products-list li {
+.products-list li article {
     display: flex;
     flex-direction: column;
     background-color: #E1EDE6;
 }
 
-.products-list li img {
+.products-list li article img {
     width: 100%;
 }
 

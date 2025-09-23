@@ -108,7 +108,7 @@
         gap: 10px;
     }
 
-    .products-list li {
+    .products-list li article {
         height: 514px;
         width: 290px;
         padding: 20px;
@@ -116,7 +116,7 @@
         box-sizing: border-box;
     }
 
-    .products-list li img {
+    .products-list li article img {
         min-height: 250px;
     }
 
