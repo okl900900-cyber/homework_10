@@ -203,6 +203,7 @@
         background: url(img/background.png) no-repeat center / cover;
         padding: 40px 33px;
         color: white;
+        margin-top: 20px;
     }
 
     .collection-header {
@@ -232,5 +233,36 @@
 
     .collection-button:hover {
         background: #FAEB97;
+    }
+
+    #our-team {
+        align-items: left;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    #our-team > img {
+        width: 60%;
+    }
+
+    #our-team p {
+        font-size: 16px;
+    }
+
+    .team-portraits {
+        display: flex;
+        justify-content: start;
+        gap: 25px;
+        height: 80px;
+        padding: 0;
+    }
+
+    .team-portraits li {
+        width: 80px;
+    }
+
+    .team-portraits li img {
+        display: block;
+        width: 100%;
     }
 }
