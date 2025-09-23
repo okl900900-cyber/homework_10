@@ -239,6 +239,7 @@
         align-items: left;
         gap: 30px;
         margin-top: 50px;
+        padding-bottom: 20px;
     }
 
     #our-team > img {
@@ -264,5 +265,10 @@
     .team-portraits li img {
         display: block;
         width: 100%;
+    }
+
+    footer {
+        background-color: #E1EDE6;
+        height: 319px;
     }
 }
