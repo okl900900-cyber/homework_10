@@ -198,4 +198,40 @@
         background-color: #598D66;
         color: white;
     }
+
+    .new-collection {
+        background: url(img/background.png) no-repeat center / cover;
+        padding: 50px 165px;
+        color: white;
+    }
+
+    .collection-header {
+        display: flex;
+        width: 50%;
+        gap: 10px;
+    }
+    
+    .collection-header img {
+        display: inline-block;
+    }
+
+    .new-collection p {
+        width: 50%;
+        font-size: 18px;
+    }
+
+    .collection-button {
+        background-color: #EEDB6D;
+        display: block;
+        width: 257px;
+        height: 45px;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+        margin-top: 60px;
+    }
+
+    .collection-button:hover {
+        background: #FAEB97;
+    }
 }

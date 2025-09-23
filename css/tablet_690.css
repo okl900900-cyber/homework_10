@@ -200,4 +200,39 @@
         background-color: #598D66;
         color: white;
     }
+
+    .new-collection {
+        background: url(img/background.png) no-repeat center / cover;
+        padding: 50px 39px;
+        color: white;
+    }
+
+    .collection-header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .collection-header img {
+        display: inline-block;
+    }
+
+    .new-collection p {
+        font-size: 18px;
+    }
+
+    .collection-button {
+        background-color: #EEDB6D;
+        display: block;
+        width: 210px;
+        height: 45px;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .collection-button:hover {
+        background: #FAEB97;
+    }
 }
