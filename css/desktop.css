@@ -65,20 +65,19 @@
         margin-top: 30px;
     }
 
-    .reproductions {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
-        height: 44px;
-    }
-
     h2 {
         font-size: 40px;
     }
 
+    .gallery h2 {
+        width: 50%;
+        padding-top: 12px;
+    }
+
     .countries-list {
         gap: 40px;
+        width: 50%;
+        justify-content: flex-end;
     }
 
     .products-list {
@@ -122,10 +121,6 @@
 
     .new-collection {
         padding: 50px 165px;
-    }
-
-    .collection-header {
-        width: 50%;
     }
 
     .new-collection p {

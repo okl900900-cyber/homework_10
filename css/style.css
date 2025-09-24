@@ -61,15 +61,14 @@ h1 span {
 
 .gallery {
     width: 100%;
-}
-
-.reproductions {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .countries-list {
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 .current-country {
@@ -105,10 +104,12 @@ h1 span {
 
 .products-list li article img {
     width: 100%;
+    order: -2;
 }
 
 .artist {
     color: #86928B;
+    order: -1;
 }
 
 .cost {
@@ -134,13 +135,10 @@ h1 span {
     margin-top: 20px;
 }
 
-.collection-header {
-    display: flex;
-    gap: 10px;
-}
-
-.collection-header img {
-    display: inline-block;
+.new-collection h2::before {
+    content: url(img/star_2.svg);
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 .new-collection p {

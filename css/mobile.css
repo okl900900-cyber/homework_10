@@ -98,6 +98,7 @@
 
     .countries-list {
         flex-wrap: wrap;
+        justify-content: flex-start;
         gap: 30px;
         padding: 0;
         font-size: 18px;
@@ -149,10 +150,6 @@
 
     .new-collection {
         padding: 35px 15px;
-    }
-
-    .collection-header {
-        align-items: center;
     }
 
     .collection-button {
