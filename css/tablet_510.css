@@ -9,7 +9,7 @@
         padding: 0 33px;
     }
 
-    .logo-title {
+    header .logo-title {
         width: 100%;
         text-align: center;
         border-bottom: 1px #C3D1C6 solid;
@@ -142,6 +142,25 @@
     }
 
     footer {
-        height: 319px;
+        height: 330px;
+    }
+
+    footer .wrap {
+        gap: 15px;
+    }
+
+    footer li, footer a {
+    font-size: 16px;
+    }
+
+    .social-networks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        border-top: 1px #C3D1C6 solid;
+        text-align: center;
+        padding: 10px 0;
     }
 }

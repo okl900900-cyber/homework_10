@@ -153,4 +153,8 @@
     footer {
         height: 168px;
     }
+
+    footer .wrap {
+        gap: 30px;
+    }
 }

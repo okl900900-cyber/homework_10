@@ -178,4 +178,76 @@ h1 span {
 
 footer {
     background-color: #E1EDE6;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+footer .wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer li, footer a {
+    color: #86928B;
+}
+
+footer ul {
+    margin: 0;
+}
+
+.phone-number {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.phone-number span:first-child {
+    font-size: 20px;
+}
+
+.phone-number span:last-child {
+    color: #86928B;
+}
+
+.footer-reproductions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-reproductions-list li {
+    margin: 5px 0;
+}
+
+.new-products-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.new-products-list li {
+    margin: 5px 0;
+}
+
+.about-us-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.about-us-list li {
+    margin: 5px 0;
+}
+
+.social-networks ul {
+    display: flex;
+    gap: 40px;
+}
+
+.social-networks span {
+    color: #86928B;
 }
